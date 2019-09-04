@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        onload = function () {
+            //document.write("hahahah")
+            document.getElementById("box1").innerHTML = "哇哈哈哈哈哈"
+            document.getElementById("box2").innerText = "哇哈哈哈哈哈"
+           // alert(document.getElementById("box2").innerText)
+        }
+
+    </script>
+</head>
+<body>
+<div id="box1">111</div>
+<div id="box2">222</div>
+</body>
+</html>
