@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var reg=/^[1-9]\d{2,17}(\d|x|X)$/
+    console.log(reg.test("130683199901025313"));
+
+    var reg1=/^[0-9a-zA-Z]\w{3,11}@[0-9a-zA-Z]{2,4}\.com(\.cn)?$/
+    console.log(reg.test("1634244312@qq.com"));
+</script>
+</body>
+</html>
+
+
