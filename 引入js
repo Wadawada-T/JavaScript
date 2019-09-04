@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div onclick="alert('assasasasasa')">行内式</div>
+
+<div id="box1">内嵌式</div>
+<script>
+    document.getElementById("box1").onclick = function () {
+        alert("我可不是你爸爸")
+    }
+</script>
+<div id="box2">外链式 <img src="./img/img1.png" alt=""></div>
+<script src="js/index.js"></script>
+
+</body>
+</html>
